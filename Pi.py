@@ -12,9 +12,10 @@ def pi_list(decimals):
 
 def repeating_elements(L):
     """ Find the largest number of identical
-        consecutive  e elements in a list. Return
-        the number of elements in a row, index,
-        where the sequence begins, and value repeating. """
+        consecutive elements in a list. Return
+        the number of elements repeated, index
+        where the sequence begins, and repeated
+        value. """
     prev = L[0]
     max_n = 0
     max_v = 0
@@ -42,3 +43,9 @@ Index of start of digit sequence: {}
 Repeating digit: {}
 Surrounding slice of pi: {}""".format(max_n, max_i, max_v, pi[max_i-3:max_i+max_n+3])
 save_file_string(output, 'pi_repeating_digits.txt')
+
+### Output ########################################################
+# Max number of digits in a row: 7
+# Index of start of digit sequence: 710099
+# Repeating digit: 3
+# Surrounding slice of pi: [5, 3, 7, 3, 3, 3, 3, 3, 3, 3, 8, 6, 3]
