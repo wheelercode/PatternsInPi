@@ -1,0 +1,4 @@
+Max number of digits in a row: 7
+Index of start of digit sequence: 710099
+Repeating digit: 3
+Surrounding slice of pi: [5, 3, 7, 3, 3, 3, 3, 3, 3, 3, 8, 6, 3]
